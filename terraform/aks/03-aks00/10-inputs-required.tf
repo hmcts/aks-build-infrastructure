@@ -13,10 +13,10 @@ variable "cluster_number" {}
 variable "kubernetes_cluster_ssh_key" {}
 
 variable "kubernetes_cluster_agent_min_count" {
-  default = 1
+  default = 2
 }
 variable "kubernetes_cluster_agent_max_count" {
-  default = 3
+  default = 4
 }
 variable "kubernetes_cluster_agent_vm_size" {
   default = "Standard_DS3_v2"
